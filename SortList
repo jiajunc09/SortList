@@ -1,0 +1,9 @@
+contents = input("Please enter your content(s) or stop: ")
+listcontents = []
+while contents != "stop" :
+    listcontents.append(contents)
+    contents = input("Please enter your content(s) or stop: ")
+else:
+    listcontents.sort()
+    print("Contents sorted:")
+    print(listcontents)
